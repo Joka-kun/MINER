@@ -1,0 +1,31 @@
+#board{
+	border: 5px solid #8c5fa8;
+	border-style: outset;
+}
+.box{
+	width: 20px;
+	height: 20px;
+	border: 3px #8c5fa8;
+	background-color: #87bdff;
+	border-style: outset;
+
+}
+td{
+	margin: 0px !important;
+}
+
+table{
+	border-spacing: 0px !important;
+}
+.box:active{
+	background-color: #9f9c9d;
+}
+
+img{
+	width: 100%;
+	display: none;
+	opacity: 50%;
+	position: fixed;
+	top: 10px;
+	left: 10px;
+}
